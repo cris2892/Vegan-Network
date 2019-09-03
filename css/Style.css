@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 24px;
+    color: #9E9E9E;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    background: #000;
+}
+
+.cabecera_arriba {
+    font-size: 13px;
+    border-bottom: 1px solid #424242;
+    color: #ccc;
+    font-weight: 500;
+}
+
+.cabecera-arriba-izquierda, .cabecera-arriba-dere {
+    margin: 8px 0;
+}
+
+.cabecera_arriba a {
+    color: #ccc;
+    font-weight: 600;
+}
+
+.cabecera-arriba-izquierda>li, .cabecera-arriba-dere>li {
+    padding: 0 10px;
+    line-height: 11px;
+}
+
+.cabecera-arriba-izquierda li, .cabecera-arriba-dere li {
+    display: inline;
+    cursor: pointer;
+}
