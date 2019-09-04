@@ -26,6 +26,9 @@
 
     <div class="container_fluid">
         <header id="cabecera">
+
+            <!--Cabecera Arriba-->
+
             <div class="cabecera_arriba">
                 <div class="container">
                     <div class="row">
@@ -33,7 +36,7 @@
                         <div class="col-xs-12 col-sm-4">
                             <div class="cabecera-arriba-izquierda">
                                 <div class="contacto">
-                                    <i class="fas fa-id-card"></i>
+
                                     <span class="hidden-xs hidden-sm hidden-md">Si quieres Mas info llena el formulario
                                         <a href="">aca</a></span>
                                 </div>
@@ -42,18 +45,33 @@
 
                         <div class="col-xs-12 col-sm-8">
                             <ul class="cabecera-arriba-dere text-right">
+                                <li class="cuenta text-center">
+                                    <a href="#" class="text-center">Ayuda & FAQ</a>
+                                </li>
                                 <li class="cuenta">
-                                    <i class="far fa-user-circle" style="font-size: 20px;"></i>
-                                    <a href="#">Mi Cuenta</a>
+                                    <a href="#" class="text-center">Mi Cuenta</a>
                                 </li>
                                 <li class="lenguaje-Drop">
                                 <li class="language dropdown"> <span class="dropdown-toggle" id="dropdownMenu1"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                        role="button">Languaje <span class="caret"></span> </span>
+                                        role="button">Lenguaje <span class="caret"></span> </span>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                                         <li><a href="#">Español</a></li>
                                         <li><a href="#">Ingles</a></li>
                                         <li><a href="#">Portugues</a></li>
+                                    </ul>
+                                </li>
+                                </li>
+
+                                <li class="moneda-Drop">
+                                <li class="moneda dropdown"> <span class="dropdown-toggle" id="dropdownMenu1"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        role="button">Monedas <span class="caret"></span> </span>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li><a href="#">$ Pesos</a></li>
+                                        <li><a href="#">$ USD</a></li>
+                                        <li><a href="#">‎€ Euro</a></li>
+                                        <li><a href="#">R$ Reales Brasileños</a></li>
                                     </ul>
                                 </li>
                                 </li>
@@ -63,6 +81,107 @@
                     </div>
                 </div>
             </div>
+
+            <!--Cabecera Abajo-->
+
+            <div class="cabecera_abajo">
+                <div class="container">
+                    <div class="row">
+
+                        <!--Buscador-->
+
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="buscador mt_40">
+                                <input id="search-input" name="search" value="" placeholder="Search"
+                                    class="form-control input-lg" autocomplete="off" type="text">
+
+                                <span class="boton-busqueda">
+                                    <button type="button" class="btn btn-default btn-lg">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <!--Logo-->
+                        <div class="navbar-cabeza col-xs-6 col-sm-4">
+                            <a href="Index.html" class="navbar-brand">
+                                <img src="img/Logo Tienda2.png" alt="">
+                            </a>
+                        </div>
+                        <!--Carrito Compras-->
+                        <div class="col-xs-6 col-sm-4 carrito">
+                            <div id="div-carro" class="btn-group btn-block mtb_40 text-center"  >
+                                <button type="button" class="btn boton-sin-outline" data-target="#dropdown-carrito" 
+                                    data-toggle="collapse" aria-expanded="true"><span id="carrito-compra">Carrito de
+                                        Compra</span><span id="carrito-total">items (3)</span> </button>
+                            </div>
+                            <div id="dropdown-carrito" class="cart-menu collapse">
+                                <ul>
+                                    <li>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center"><a href="#"><img
+                                                                src="images/product/70x84.jpg" alt="iPod Classic"
+                                                                title="iPod Classic"></a></td>
+                                                    <td class="text-left product-name"><a href="#">MacBook Pro</a> <span
+                                                            class="text-left price">$20.00</span>
+                                                        <input class="cart-qty" name="product_quantity" min="1"
+                                                            value="1" type="number">
+                                                    </td>
+                                                    <td class="text-center"><a class="close-cart"><i
+                                                                class="fa fa-times-circle"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center"><a href="#"><img
+                                                                src="images/product/70x84.jpg" alt="iPod Classic"
+                                                                title="iPod Classic"></a></td>
+                                                    <td class="text-left product-name"><a href="#">MacBook Pro</a> <span
+                                                            class="text-left price">$20.00</span>
+                                                        <input class="cart-qty" name="product_quantity" min="1"
+                                                            value="1" type="number">
+                                                    </td>
+                                                    <td class="text-center"><a class="close-cart"><i
+                                                                class="fa fa-times-circle"></i></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-right"><strong>Sub-Total</strong></td>
+                                                    <td class="text-right">$2,100.00</td>
+                                                </tr>
+                                              
+                                                <tr>
+                                                    <td class="text-right"><strong>IVA (21%)</strong></td>
+                                                    <td class="text-right">$20.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><strong>Total</strong></td>
+                                                    <td class="text-right">$2,122.00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        <form action="cart_page.html">
+                                            <input class="btn float-left mt_10" value="View cart" type="submit">
+                                        </form>
+                                        <form action="checkout_page.html">
+                                            <input class="btn float-right mt_10" value="Checkout" type="submit">
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </header>
     </div>
 
