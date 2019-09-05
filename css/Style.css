@@ -60,25 +60,19 @@ ul li {
 
 
 
+
+
+
+
+
+
 /* ----------------------------------------------
 	 Cabecera
 ----------------------------------------------- */
 
-@media (max-width: 767px){
-    .hidden-xs {
-    display: none !important;
-}
-}
 
-@media (max-width: 991px) and (min-width: 768px){
-.hidden-sm {
-    display: none !important;
-}}
 
-@media (max-width: 1199px) and (min-width: 992px){
-.hidden-md {
-    display: none !important;
-}}
+
 
 
 .cabecera_arriba {
@@ -201,6 +195,7 @@ ul li {
     border: none;
     border-radius: 0;
     float: right;
+    outline: none !important;
 }
 
 #div-carro>.btn:hover {
@@ -260,7 +255,7 @@ ul li {
 }
 
 /* ----------------------------------------------
-	 Dropdown-menu
+	 Dropdowns Styles
 ----------------------------------------------- */
 
 .dropdown-menu {
@@ -273,67 +268,80 @@ ul li {
     padding: 15px;
 }
 
-.dropdown-menu > li > a {
-    display: block;
-    padding: 3px 20px;
-    clear: both;
-    font-weight: normal;
-    line-height: 1.42857143;
-    color: #333;
-    white-space: nowrap;
-}
-
-.dropdown-menu>li>a {
-    color: #fff;
-    padding: 5px 15px;
-}
-
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-    background-color: #fa4251;
-    color: rgb(255, 255, 255);
-}
 
 
 /* ----------------------------------------------
 	 Nav Bar
 ----------------------------------------------- */
+.nav1{
+    background-color: #424242;
+    height: 65px;
+}
 
- #menu_nav>li>a {
+@media only screen and (max-width: 776px) {
+    .nav1{
+        background-color: #424242;
+        height: 100%;
+    }
+}
+
+.menu{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+
+@media (min-width: 800px){
+    .menu {
+    display: none !important;
+}
+}
+
+ .nav1 .div-nav .opciones li a {
     padding: 22px 18px;
     border-radius: 0;
     overflow: hidden;
     color: #fff;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
+    
 }
 
-#menu_nav{
-    height: 64px;
-    text-align: center;
-    width: 100%;
+.nav1 .div-nav .opciones{
+    height: 100%;
+   
 }
 
-.navbar-nav>li>a {
+.nav1 .div-nav .opciones .activo a {
+    color:  #fa4251;
+}
+
+.nav1 .div-nav .opciones li a {
     font-weight: 500;
 }
 
-#menu_nav>li>a:hover, #menu_nav>li>a:focus {
+
+.nav1 .div-nav .opciones li a:hover, .nav1 .div-nav .opciones li a:focus {
     background-color: #fa4251;
     color: #fff;
 }
 
-.nav1{
-    background-color: #424242;
+.nav1 .div-nav .opciones li a::before {
+    background: #fa4251 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    transition-duration: 0.3s;
+    z-index: -1;
 }
-
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------------
 	 Tipografia 
@@ -406,6 +414,18 @@ h6 {
 .capitalize {
     text-transform: capitalize;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
