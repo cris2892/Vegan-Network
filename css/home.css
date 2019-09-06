@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,600,700');
 
+
+html{
+    font-size: 62.5%; /* se Usa para poder hacer que 1 Rem sea igual a 10px y asi tener mejor control en el resm*/
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -55,6 +60,18 @@ ul li {
     float: right !important;
 }
 
+.color-fondo{
+    background-color: #F2EFEA;
+}
+
+.color_negro{
+    color: black;
+}
+
+.color-oscuro{
+  background-color: #37474f;
+}
+
 
 
 
@@ -72,9 +89,6 @@ ul li {
 
 
 
-
-
-
 .cabecera_arriba {
     font-size: 13px;
     border-bottom: 1px solid #424242;
@@ -87,7 +101,7 @@ ul li {
 }
 
 .cabecera_arriba a {
-    color: #ccc;
+    color: white;
     font-weight: 600;
 }
 
@@ -101,86 +115,26 @@ ul li {
     cursor: pointer;
 }
 
-/* ----------------------------------------------
-	 Cabecera Principal
------------------------------------------------ */
 
-.buscador {
-    margin-bottom: 0;
-    width: 220px;
-    position: relative;
-}
-
-.buscador .input-lg {
-    height: 40px;
-    line-height: 20px;
-    padding: 0 40px 0 10px;
-    border: none;
-    border-radius: 0;
-    border: 1px solid #424242;
-    background-color: #000;
-}
-
-
-
-.buscador .boton-busqueda {
-    display: block;
-    height: 33px;
-    position: absolute;
-    right: 0;
-    top: 3px;
-    width: 40px;
-}
-
-.buscador .btn-lg {
-    font-size: 16px;
-    line-height: 18px;
-    padding: 8px 13px;
-    margin: 0;
-    border: none;
-    color: #192e3f;
-    background-color: transparent;
-}
-
-.btn {
-    background: #424242 none repeat scroll 0 0;
-    border-radius: 0;
-    color: #fff;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.buscador span button i{
-
-    color: white;
-
-}
-
-.buscador span button i:hover{
-
-    color: orange;
-
-}
 
 /* ----------------------------------------------
-	 Cabecera central
+	 Logo
 ----------------------------------------------- */
 
-.navbar-cabeza {
+.logo {
     text-align: center;
 }
 
-.navbar-cabeza .navbar-brand {
+.logo .logo-link {
     height: auto;
 }
 
-.navbar-brand {
+.logo-link {
     padding: 33px 0;
     display: inline-block;
     float: none;
 }
-.navbar-header .navbar-brand {
+ .logo-link {
     height: auto;
 }
 
@@ -195,16 +149,15 @@ ul li {
     border: none;
     border-radius: 0;
     float: right;
-    outline: none !important;
+    outline:none !important;
+    outline-width: 0 !important;
 }
 
 #div-carro>.btn:hover {
     background-position: -15px -152px;
 }
 
-#div-carro .boton-sin-outline {
-    outline: none;
-}
+
 
 #carrito-compra {
     float: left;
@@ -220,11 +173,12 @@ ul li {
 }
 
 #dropdown-carrito {
-    background: #fff none repeat scroll 0 0;
+    background: #fff;
     border: 1px solid #e5e5e5;
-    min-width: 285px;
+    min-width: 185px;
+    max-width: 300px;
     position: absolute;
-    right: 0;
+    right: 10;
     top: 90px;
     z-index: 3;
 }
@@ -238,21 +192,33 @@ ul li {
     padding: 10px 0;
 }
 
-#dropdown-carrito .product-name {
+#dropdown-carrito .nombre-producto {
     min-width: 160px;
     padding-left: 10px !important;
 }
 
-#dropdown-carrito .price {
+#dropdown-carrito .precio {
     display: block;
     font-size: 14px;
 }
 
-#dropdown-carrito .cart-qty {
-    margin-top: 5px;
-    padding: 5px 8px;
-    width: 60px;
+#dropdown-carrito .cant-carro {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    width: 6rem;
 }
+
+.btn {
+    background: #424242 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
 
 /* ----------------------------------------------
 	 Dropdowns Styles
@@ -328,6 +294,51 @@ ul li {
     color: #fff;
 }
 
+#buscar{
+    font-size: 2rem;
+}
+.nav1 form {
+
+        height: 40px;
+        line-height: 20px;
+        padding: 0 0px 0 10px;
+        border: none;
+        font-size: 15px;
+        color: white;
+        border-radius: 0;
+        border-bottom: 1px solid white; 
+        background-color: rgba(14, 9, 9, 0);
+        outline: 0px !important; 
+
+    }
+
+    .nav1 form input{
+        height: 40px;
+        line-height: 20px;
+        padding: 0 0px 0 10px;
+        border: none;
+        font-size: 2rem;
+        border-radius: 0; 
+        background-color: rgba(14, 9, 9, 0) !important;
+        outline: none !important; 
+        color: white !important;
+
+}
+
+input:focus, input.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+
+
+
+
 
 /* ----------------------------------------------
 	 Tipografia 
@@ -400,6 +411,8 @@ h6 {
 .capitalize {
     text-transform: capitalize;
 }
+
+
 
 
 
