@@ -328,20 +328,6 @@ ul li {
     color: #fff;
 }
 
-.nav1 .div-nav .opciones li a::before {
-    background: #fa4251 none repeat scroll 0 0;
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transform: scaleY(0);
-    transform-origin: 0 0 0;
-    transition-duration: 0.3s;
-    z-index: -1;
-}
 
 /* ----------------------------------------------
 	 Tipografia 
