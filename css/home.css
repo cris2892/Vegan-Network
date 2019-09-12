@@ -19,7 +19,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     letter-spacing: 0.5px;
-    background: rgb(0, 0, 0);
+    background: #F2EFEA;
 }
 
 img {
@@ -209,7 +209,8 @@ ul li {
 }
 
 .btn {
-    background: #424242 none repeat scroll 0 0;
+    background:transparent;
+    /*background: #424242 none repeat scroll 0 0;*/
     border-radius: 0;
     color: #fff;
     padding: 1rem 2rem;
@@ -294,6 +295,20 @@ ul li {
     color: #fff;
 }
 
+/* ----------------------------------------------
+	 Buscador
+----------------------------------------------- */
+
+.nav1 form .btn_bus{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.nav1 form .btn_bus :hover{
+    color: #fa4251;
+}
+
 #buscar{
     font-size: 2rem;
 }
@@ -335,6 +350,132 @@ input:focus, input.form-control:focus {
 }
 
 
+/* ----------------------------------------------
+	 Menu Abajo
+----------------------------------------------- */
+
+
+.container_productos_menu{
+    margin-top: 1.5rem;
+}
+
+a.text-hover-dark, .text-dark{
+    font-size: 1.8rem;
+}
+
+a.text-hover-dark:focus, a.text-hover-dark:hover {
+    color: #212529 !important;
+}
+
+.btn-link {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bcac76;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #9a884b;
+    text-decoration: underline;
+}
+
+
+/* ----------------------------------------------
+	 Seccion 3 Productos
+----------------------------------------------- */
+
+/* ----------------------------------------------
+	 Badge
+----------------------------------------------- */
+
+
+
+.product-badge {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    padding: 5px 8px;
+    z-index: 20;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #877f64;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25rem .4rem;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0;
+    }
+
+   
+
+ /* ----------------------------------------------
+	 Cambio de imagen
+----------------------------------------------- */
+
+
+@media (min-width: 768px){
+.producto:hover .product-swap-image-front {
+    opacity: 0;
+}
+
+}
+
+.product-swap-image {
+    position: relative;
+}
+
+.product-swap-image .product-swap-image-front {
+    position: relative;
+    cursor: pointer;
+    transition: opacity .5s ease-in-out;
+    z-index: 10;
+}
+
+.product-swap-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.product-swap-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.position-relative {
+    position: relative !important;
+}
 
 
 
