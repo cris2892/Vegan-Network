@@ -60,9 +60,16 @@ ul li {
     float: right !important;
 }
 
-.color-fondo{
+.cabecera_abajo {
     background-color: #9a884b;
+    /* background-image: url(../img/main_banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 100%; */
 }
+
+
 
 .color_negro{
     color: black;
@@ -90,9 +97,10 @@ ul li {
 
 
 .cabecera_arriba {
-    font-size: 1.3rem;
     border-bottom: 0.1rem solid #424242;
     color: #ccc;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     font-weight: 500;
 }
 
@@ -103,6 +111,8 @@ ul li {
 .cabecera_arriba a {
     color: white;
     font-weight: 600;
+    font-size: 1.5rem;
+    
 }
 
 .cabecera-arriba-izquierda>li, .cabecera-arriba-dere>li {
@@ -330,7 +340,7 @@ ul li {
     .nav1 form input{
         height: 4rem;
         line-height: 2rem;
-        padding: 0 0px 0 1rem;
+        padding: 0 0px 0 0rem;
         border: none;
         font-size: 2rem;
         border-radius: 0; 
@@ -349,6 +359,9 @@ input:focus, input.form-control:focus {
     -webkit-box-shadow: none;
 }
 
+/* ----------------------------------------------
+	 Seccion 3 Productos
+----------------------------------------------- */
 
 /* ----------------------------------------------
 	 Menu Abajo
@@ -383,9 +396,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 
-/* ----------------------------------------------
-	 Seccion 3 Productos
------------------------------------------------ */
+
 
 /* ----------------------------------------------
 	 Badge
