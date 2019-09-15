@@ -254,7 +254,7 @@ ul li {
     height: 6.5rem;
 }
 
-@media only screen and (max-width: 77.6rem) {
+@media only screen and (max-width: 776px) {
     .nav1{
         background-color: #424242;
         height: 100%;
@@ -269,7 +269,7 @@ ul li {
 }
 
 
-@media (min-width: 80rem){
+@media (min-width: 720px){
     .menu {
     display: none !important;
 }
