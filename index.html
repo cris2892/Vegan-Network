@@ -24,7 +24,7 @@
 
 <body>
 
-    <div class="container_fluid color-fondo">
+    <div class="container_fluid">
 
         <div class="container_fluid">
             <header id="cabecera">
@@ -57,12 +57,12 @@
 
                 <!--Cabecera Abajo-->
 
-                <div class="cabecera_abajo">
+                <div class="cabecera_abajo color-fondo">
                     <div class="container">
                         <!--Row Header Abajo -->
                         <div class="row">
 
-                            <!--Buscador-->
+                            
 
 
                             <!--Logo-->
@@ -195,9 +195,13 @@
                         <form class="form-inline d-lg-flex ml-auto mr-lg-5 mr-xl-6 my-4 my-lg-0 barra_busqueda">
                             <input class="busqueda form-control form-control-underlined pl-3" type="search"
                                 placeholder="Search" aria-label="Search">
-                            <span><button class="btn btn-underlined py-0" type="submit" style="outline: none;"><i
-                                        id="buscar" class="fas fa-search"></i></button>
+                            <span><button class="btn_bus btn-underlined py-0" type="submit" style="outline: none;">
+                                <i id="buscar" class="fas fa-search"></i>
+                            </button>
                         </form>
+
+                        
+
                     </div>
                 </nav>
 
@@ -228,6 +232,47 @@
                     </a>
                 </div>
             </div>
+
+
+            <div class="container container_productos_menu">
+                <div class="row justify-content-between align-items-center mb-4">
+                    <div class="col-12 col-sm">
+                      <ul class="list-inline text-center text-sm-left mb-3 mb-sm-0"> 
+                        <li class="list-inline-item"><a href="#" class="text-dark">Todo los Productos </a></li>
+                        <li class="list-inline-item"><a href="#" class="text-muted text-hover-dark">Tipo1</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-muted text-hover-dark">Tipo2</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-muted text-hover-dark">Tipo3</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-muted text-hover-dark">Tipo4</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-auto text-center"><a href="#" class="btn btn-link px-0">Todo los Productos</a></div>
+                  </div>
+
+                  <div class="row">
+
+                    <!-- Productos -->
+                    
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+                        <div class="producto">
+                          <div class="product-image mb-md-3">
+                            <div class="product-badge badge badge-secondary">Nuevo</div><a href="detail-1.html">
+                              <div class="product-swap-image"><img src="https://d19m59y37dris4.cloudfront.net/varkala/1-0/img/product/0987188250_1_1_1.43f81a4a.jpg" alt="product" class="img-fluid product-swap-image-front"><img src="https://d19m59y37dris4.cloudfront.net/varkala/1-0/img/product/0987188250_2_1_1.7bbd2efc.jpg" alt="product" class="img-fluid"></div></a>
+                            </div>
+                          </div>
+                          <div class="position-relative">
+                            <h3 class="text-base mb-1"><a href="detail-1.html" class="text-dark">White Tee</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                            
+                          </div>
+                        </div> <!-- Productos -->
+
+                         
+                        
+                      </div>
+
+                  </div>
+            </div>
+
+
 
         </div>
     </div>
