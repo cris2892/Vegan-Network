@@ -17,7 +17,7 @@
 
     <!-- Estilos Propios -->
 
-    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/master.css">
 
     <title>FAQs</title>
 </head>
@@ -172,35 +172,22 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Mi cuenta
+                                    Categorias
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Usuario y clave</a>
-                                    <a class="dropdown-item" href="#">Perfil</a>
-
+                                    <a class="dropdown-item" href="#">Tecnologia</a>
+                                    <a class="dropdown-item" href="#">Ropa</a>
+                                    <a class="dropdown-item" href="#">ETC</a>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Formas de pago
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Mercado Pago</a>
-                                    <a class="dropdown-item" href="#">Pago con tarjeta</a>
-                                    <a class="dropdown-item" href="#">Transferencia</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ofertas</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Entregas
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">En domicilio</a>
-                                    <a class="dropdown-item" href="#">En puntos de retiro</a>
-                                    <a class="dropdown-item" href="#">En local</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Vender</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ayuda</a>
                             </li>
 
                         </ul>
@@ -215,6 +202,27 @@
                     </div>
                 </nav>
             </header>
+            <div class="">
+              <h1 class="">
+                FAQs
+              </h1><br>
+              <section class="">
+
+                <article class="">
+                <strong>¿Cómo creo mi cuenta?</strong><br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </article><br>
+                <article class="">
+                <strong>¿Cómo modifico mi perfil de usuario?</strong><br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </article><br>
+                <article class="">
+                <strong>¿Dónde encuentro los productos para comprar?</strong><br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </article><br>
+             </section><br>
+
+
                       </div>
 
                   </div>
