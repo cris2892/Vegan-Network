@@ -175,7 +175,7 @@
                                     Categorias
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Tegnologia</a>
+                                    <a class="dropdown-item" href="#">Tecnologia</a>
                                     <a class="dropdown-item" href="#">Ropa</a>
                                     <a class="dropdown-item" href="#">ETC</a>
                                 </div>
