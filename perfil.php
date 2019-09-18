@@ -17,6 +17,7 @@
 
     <!-- Estilos Propios -->
 
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/homePerfil.css">
 
     <title>Mi Cuenta</title>
@@ -211,7 +212,7 @@
 
 
 
-            <!--Menu lateral izquierdo-->
+        <!--Menu lateral izquierdo-->
             <section class="cuerpo-perfil">
                 <section class="contenedor-lateral">
 
@@ -235,26 +236,25 @@
                             <br>
                             <div class="contenedor-informacion">
                                     <div class="linea">
-                                            <h4 class="titulo-contenedor">Informacion personal</h4> <a class="editar" href="editar.html">Editar</a>
+                                            <h4 class="titulo-contenedor">Informacion personal</h4> <a class="editar" href="editar-informacion-cuenta.html">Editar</a>
                                     </div>
                                      <br>
                                      <div class="contenido-contenedor">
-                                            <p>Nala Parrillas</p>
-                                            <p>nala@gmail.com</p>
-                                            <p>4765-6541</p>
-                                            <p>Calle falsa 123</p>
-                                            <p>Buenos Aires</p>
-                                            <p>Argentina</p>
+                                            <p class="informacion-mi-cuenta"></p> <img class="icono-cuenta" src="img/icon-usuario.png" alt="">Nala Parrillas</p>
+                                            <p class="informacion-mi-cuenta"> <img class="icono-cuenta" src="img/icon-email.png" alt="">nala@gmail.com</p>
+                                            <p class="informacion-mi-cuenta"> <img class="icono-cuenta" src="img/icon-telefono.png" alt=""> 4765-6541</p>
+                                            <p class="informacion-mi-cuenta"> <img class="icono-cuenta" src="img/icon-ciudad.png" alt="">Calle 123 - Buenos Aires - Argentina</p>
+                                            <p class="informacion-mi-cuenta"> <img class="icono-cuenta" src="img/icon-pais.png" alt="">Español</p>
                                      </div>
                             </div>
                                     <br>
                             <div class="contenedor-pass"> 
                                     <div class="linea">
-                                             <h4 class="titulo-contenedor">Contraseña</h4> <a class="editar" href="editar.html">Editar</a>
+                                             <h4 class="titulo-contenedor">Contraseña</h4> <a class="editar" href="cambiar-pass.html">Editar</a>
                                     </div>
                                              <br>
                                     <div class="contenido-contenedor">
-                                            <p>***********</p>
+                                            <p class="contrasenia-contenedor">***********</p>
                                     </div>
                                     </div>
                             

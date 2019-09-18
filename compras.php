@@ -17,8 +17,8 @@
 
     <!-- Estilos Propios -->
 
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/compras.css">
-
     <title>Compras</title>
 </head>
 
@@ -214,119 +214,101 @@
             <!--Menu lateral izquierdo-->
             <section class="cuerpo-perfil">
                 <section class="contenedor-lateral">
-
                     <article class="titulo-bienvenida">
                         <p> <img class="imagen-perfil" src="img/girl.png" alt="">Hola Florencia!!</p> 
                     </article> 
                     <article class="usuario-compra-vende">Soy Comprador</article>
                     <br> 
                     <article>
-                            <ul>
-                                    <li><a href="perfil.html">Mi cuenta</a></li>
-                                    <li><a href="compras.html">Mis compras</a></li>
-                                    <li><a href="preguntas.html">Mis preguntas</a></li>
-                                    <li><a href="favoritos.html">Favoritos</a></li>
-                            </ul>
+                        <ul>
+                            <li><a href="perfil.html">Mi cuenta</a></li>
+                            <li><a href="compras.html">Mis compras</a></li>
+                            <li><a href="preguntas.html">Mis preguntas</a></li>
+                            <li><a href="favoritos.html">Favoritos</a></li>
+                        </ul>
                     </article>
                 </section>
-
-                                 
-            
-
-
                 <section class="contenedor-central">
-                        <article>
-                                <h2 >Mis compras</h2>
-                                <br><br>
-                                <!--Compra 1-->
-                                <div class="producto-compra">
-                                    <div class="contenedor-imagen">
-                                            <img class="imagen-producto-compra"  src="img/jugos.jpg" alt="">
-                                    </div>
-                                        
-                                    <div class="despcripcion-producto">
-                                            <a href="jugo-fruta.html"> Jugo de Frutas Just</a> <br>
-                                            $200.- x 1 unidad.
-                                    </div>
-                                    <div class="foto-tienda">
-                                           <img src="img/cat1.png" alt=""> 
-                                    </div>
-
-                                    <div class="vendedor-producto">
-                                        <h5> Vendedor:</h5> 
-                                        <a href="tienda-nala.html"> ♥ Tienda Nala</a> <br>
-                                        <a href="mensajes.html"> Ver mensajes</a>
-                                    </div>
-                                    <div class="detalle-producto"> 
-                                        <input class="btn1" type="button" value="Ver detalle">
-                                    </div>
-                                
-                                </div>
+                    <article>
+                        <h2 >Mis compras</h2>
+                        <br><br>
+            <!--Compra 1-->
+                <div class="producto-compra">
+                    <div class="contenedor-imagen">
+                        <img class="imagen-producto-compra"  src="img/jugos.jpg" alt="">
+                    </div>
+                    <div class="despcripcion-producto">
+                        <a href="jugo-fruta.html"> <p>Jugo de Frutas Just</p> </a> 
+                        <br>
+                        <p>$200.- x 1 unidad.></p>   
+                    </div>
+                    <div class="foto-tienda">
+                        <img src="img/cat1.png" alt=""> 
+                    </div>
+                    <div class="vendedor-producto">
+                        <h5>Vendedor:</h5> 
+                        <a href="tienda-nala.html"> ♥ Tienda Nala</a> <br>
+                        <a href="mensajes.html"> Ver mensajes</a>
+                    </div>
+                    <div class="detalle-producto"> 
+                        <input class="btn1" type="button" value="Ver detalle">
+                    </div>
+                </div>
                               
 
-                            <!--Compra 2-->
-                                <div class="producto-compra-2">
-                                        <div class="contenedor-imagen">
-                                                <img class="imagen-producto-compra"  src="img/jugos.jpg" alt="">
-                                        </div>
+            <!--Compra 2-->
+                <div class="producto-compra-2">
+                    <div class="contenedor-imagen">
+                        <img class="imagen-producto-compra"  src="img/jugos.jpg" alt="">
+                    </div>
                                             
-                                        <div class="despcripcion-producto">
-                                                <a href="jugo-fruta.html"> Jugo de Frutas Just</a> <br>
-                                                $200.- x 1 unidad.
-                                        </div>
-                                        <div class="foto-tienda">
-                                               <img src="img/cat1.png" alt=""> 
-                                        </div>
-    
-                                        <div class="vendedor-producto">
-                                            <h5> Vendedor:</h5> 
-                                            <a href="tienda-nala.html"> ♥ Tienda Nala</a> <br>
-                                            <a href="mensajes.html"> Ver mensajes</a>
-                                        </div>
-                                        <div class="detalle-producto"> 
-                                            <input class="btn1" type="button" value="Ver detalle">
-                                        </div>
+                    <div class="despcripcion-producto">
+                        <a href="jugo-fruta.html"> <p>Jugo de Frutas Just</p>  </a> <br>
+                        <p>$200.- x 1 unidad.></p>
+                    </div>
+                    <div class="foto-tienda">
+                        <img src="img/cat1.png" alt=""> 
+                    </div>
+                    <div class="vendedor-producto">
+                        <h5> Vendedor:</h5> 
+                        <a href="tienda-nala.html"> ♥ Tienda Nala</a> <br>
+                        <a href="mensajes.html"> Ver mensajes</a>
+                    </div>
+                    <div class="detalle-producto"> 
+                        <input class="btn1" type="button" value="Ver detalle">
+                    </div>
                                     
-                                    </div>
-                                     <!--Compra 3-->
-                                <div class="producto-compra-2">
-                                        <div class="contenedor-imagen">
-                                                <img class="imagen-producto-compra"  src="img/jugos.jpg" alt="">
-                                        </div>
-                                            
-                                        <div class="despcripcion-producto">
-                                                <a href="jugo-fruta.html"> Jugo de Frutas Just</a> <br>
-                                                $200.- x 1 unidad.
-                                        </div>
-                                        <div class="foto-tienda">
-                                               <img src="img/cat1.png" alt=""> 
-                                        </div>
+                </div>
+            <!--Compra 3-->
+                <div class="producto-compra-2">
+                    <div class="contenedor-imagen">
+                        <img class="imagen-producto-compra"  src="img/jugos.jpg" alt="">
+                    </div>
+                    <div class="despcripcion-producto">
+                        <a href="jugo-fruta.html"> <p>Jugo de Frutas Just</p>  </a> <br>
+                        <p>$200.- x 1 unidad.></p>
+                    </div>
+                    <div class="foto-tienda">
+                        <img src="img/cat1.png" alt=""> 
+                    </div>
     
-                                        <div class="vendedor-producto">
-                                            <h5> Vendedor:</h5> 
-                                            <a href="tienda-nala.html"> ♥ Tienda Nala</a> <br>
-                                            <a href="mensajes.html"> Ver mensajes</a>
-                                        </div>
-                                        <div class="detalle-producto"> 
-                                            <input class="btn1" type="button" value="Ver detalle">
-                                        </div>
-                                    
-                                    </div>
-                                    <div  class="paginacion">
-                                        <a class="pagina-numero" href="pagina-uno.html">1</a> 
-                                        <a class="pagina-numero" href="pagina-uno.html">2</a>
-                                        <a class="pagina-numero" href="pagina-uno.html">3</a>
-                                    </div>
-                                
-                            
-                                
-                                
-             
-                              
-                               
+                    <div class="vendedor-producto">
+                        <h5> Vendedor:</h5> 
+                        <a href="tienda-nala.html"> ♥ Tienda Nala</a> <br>
+                        <a href="mensajes.html"> Ver mensajes</a>
+                    </div>
+                    <div class="detalle-producto"> 
+                        <input class="btn1" type="button" value="Ver detalle">
+                    </div>
+                </div>
+                <div  class="paginacion">
+                    <a class="pagina-numero" href="pagina-uno.html">1</a> 
+                    <a class="pagina-numero" href="pagina-uno.html">2</a>
+                    <a class="pagina-numero" href="pagina-uno.html">3</a>
+                </div>
             </article>
                             
-                    </section>
+        </section>
 
               
 

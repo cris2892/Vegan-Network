@@ -17,6 +17,7 @@
 
     <!-- Estilos Propios -->
 
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/preguntas.css">
 
     <title>Preguntas</title>
@@ -314,15 +315,7 @@
                                         <a class="pagina-numero" href="pagina-uno.html">2</a>
                                         <a class="pagina-numero" href="pagina-uno.html">3</a>
                                     </div>
-                                
-                            
-                                
-                                
-             
-                              
-                               
-            </article>
-                            
+                        </article>
                     </section>
 
               

@@ -23,13 +23,13 @@
 .titulo-bienvenida{
     font-size: 2rem; 
 }
-.imagen-perfil{
-    padding-right: 1rem;
-}
 .usuario-compra-vende{
     font-size: 1.2rem;
     color: #9E9E9E;
     padding-left: 4.3rem;
+}
+.imagen-perfil{
+    padding-right: 1rem;
 }
 .contenedor-central{
     width: 100%;
@@ -37,13 +37,24 @@
     padding-right: 5rem;
 }
 .titulo-contenedor{
-    
-    width: 95%;
+     width: 95%;
 }
 .linea{
     border-bottom: solid gray 0.1rem;
     display: flex;
 }
-.contrasenia-contenedor{
-    color:  #37474f;  
+.contenedor-pass{
+    padding-bottom: 2rem;
+}
+.btn1:hover {
+    background-color: #fa4251;
+    color: white;
+    
+}
+.btn1 {
+    background-color: #585556;
+    color: white;   
+}
+.caja-editar-usuario{
+    width: 30rem;
 }
