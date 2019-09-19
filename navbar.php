@@ -23,11 +23,15 @@
                     </li>
 
                     <li class="cuenta text-center">
+                        <a href="compras.php" class="text-center">Compras</a>                        
+                    </li>
+
+                    <li class="cuenta text-center">
                         <a href="preguntas.php" class="text-center">Preguntas</a>
                     </li>
 
                     <li class="cuenta text-center">
-                        <a href="#" class="text-center">Contacto</a>
+                        <a href="contacto.php" class="text-center">Contacto</a>
                     </li>
 
                     <li class="cuenta text-center">
@@ -57,8 +61,9 @@
 
             <!--Logo-->
             <div class="logo col-12 col-sm-8 d-sm-flex justify-content-end">
-                <a href="Index.html" class="logo-link">
-                    <img src="img/Logo Tienda2.png" alt="">
+                <a href="Index.php" class="logo-link">                    
+                    <img src="img/Logo Tienda2.png" alt=""> 
+                    <!-- #FBF27C -->
                 </a>
             </div>
             <!--Carrito Compras-->
