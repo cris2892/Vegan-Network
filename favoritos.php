@@ -17,9 +17,9 @@
 
     <!-- Estilos Propios -->
 
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/favoritos.css">
+    
     <link rel="stylesheet" href="css/master.css">
+    
     <title>Favoritos</title>
 </head>
 

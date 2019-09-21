@@ -17,8 +17,7 @@
 
     <!-- Estilos Propios -->
 
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/preguntas.css">
+
     <link rel="stylesheet" href="css/master.css">
 
     <title>Preguntas</title>

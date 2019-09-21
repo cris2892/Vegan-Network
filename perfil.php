@@ -17,8 +17,7 @@
 
     <!-- Estilos Propios -->
 
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/homePerfil.css">
+  
     <link rel="stylesheet" href="css/master.css">
 
     <title>Mi Cuenta</title>

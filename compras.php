@@ -17,8 +17,8 @@
 
     <!-- Estilos Propios -->
 
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/compras.css">
+    
+   
     <link rel="stylesheet" href="css/master.css">
     <title>Compras</title>
 </head>

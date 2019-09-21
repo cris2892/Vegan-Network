@@ -17,7 +17,7 @@
 
     <!-- Estilos Propios -->
 
-    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="master/.css">
     <link rel="stylesheet" href="css/editar-informacion-cuenta.css">
 
     <title>Mi Cuenta</title>
